@@ -80,6 +80,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Active bids */}
+      <section className="border-t border-white/10 bg-zinc-900/40">
+        <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
+          <p className="text-center text-xs font-bold tracking-[0.5em] text-zinc-500">
+            ACTIVE BIDS
+          </p>
+          <h2 className="mt-4 text-center text-2xl font-black sm:text-3xl">
+            Currently bidding
+          </h2>
+          <div className="mx-auto mt-10 max-w-3xl space-y-4">
+            <div className="rounded-2xl border border-white/10 bg-zinc-950/70 p-6">
+              <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
+                <h3 className="text-lg font-bold">
+                  City of Brandon — Transit Uniform Supply
+                </h3>
+                <span className="inline-block w-fit rounded-full bg-green-500/15 px-3 py-1 text-xs font-bold text-green-400">
+                  SUBMITTED
+                </span>
+              </div>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+                RFP L-01/26 — Supply &amp; delivery of transit clothing (8
+                uniform items, 4-year term). Bid submitted October 19, 2026.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* For subcontractors */}
       <section className="border-t border-white/10">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 sm:py-20">
